@@ -1,0 +1,6 @@
+desktop
+!desktop/resources
+src/admobglue.c
+*.zip
+*.apk*
+*.aab*
