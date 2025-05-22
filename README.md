@@ -3,6 +3,8 @@ The template expects rewarded-ads, but you should be able to modify the files in
 
 this template is based of [planetis-m template](https://github.com/planetis-m/naylib-game-template)
 
+If you don't need ads in your game use [this base template](https://github.com/choltreppe/naylib-android-template)
+
 ## compile desktop version for testing
 
 you can use just the normal
