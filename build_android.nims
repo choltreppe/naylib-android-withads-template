@@ -37,9 +37,8 @@ const
 
 # Required path variables
 const
-  JavaHome = "/usr/lib/jvm/java-17-openjdk"
-  AndroidHome = "/home/user/Android/Sdk"
-  AndroidNdk = AndroidHome / "ndk/27.0.12077973"
+  AndroidHome = getEnv"ANDROID_HOME"
+  AndroidNdk = getEnv"ANDROID_NDK"
   AndroidBuildTools = AndroidHome / "build-tools/34.0.0"
   KeyStorePath = ""  # path to .keystore file for signing .aab
 

@@ -14,7 +14,7 @@ to test as desktop version
 ## build .apk
 
 1. get android-sdk / -nkd / build-tools someway
-2. fill out the required path variables in `build_android.nims`
+2. set the `ANDROID_HOME` and `ANDROID_NDK` env vars
 3. run `nimble setupAndroid` to generate the missing files in android project structure
 4. run `nimble buildAndroid` to build the `.apk`
 5. plug in your device and run `nimble deploy`
